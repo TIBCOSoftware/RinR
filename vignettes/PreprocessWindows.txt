@@ -1,0 +1,5 @@
+NEWRHOME=C:/Program Files/R/R-3.4.4
+NEWRVER=3.4.4
+OLDRHOME=C:/Program Files/R/R-3.3.3
+OLDRVER=3.3.3
+

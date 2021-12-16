@@ -1,0 +1,5 @@
+NEWRHOME=/Library/Frameworks/R.framework/Resources
+NEWRVER=3.4.4
+OLDRHOME=/Library/Frameworks/R.framework/Versions/3.3/Resources
+OLDRVER=3.3.3
+

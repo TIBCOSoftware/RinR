@@ -1,0 +1,731 @@
+PLEASE READ CAREFULLY:  IF YOU HAVE ANOTHER VALID, SIGNED AGREEMENT WITH TIBCO WHICH APPLIES TO THE SPECIFIC SOFTWARE, EQUIPMENT, CLOUD OR HOSTED SERVICES YOU WILL BE DOWNLOADING, ACCESSING OR OTHERWISE RECEIVING (INDIVIDUALLY AND COLLECTIVELY REFERRED TO AS THE "PRODUCTS"), THAT OTHER AGREEMENT SHALL CONTROL YOUR USE OF SUCH PRODUCTS AND, IF APPLICABLE, RELATED SERVICES (AS DEFINED BELOW).  OTHERWISE, BY USING, DOWNLOADING, INSTALLING, COPYING, OR ACCESSING PRODUCTS, OR BY CLICKING ON "I ACCEPT" ON OR ADJACENT TO THE SCREEN WHERE THIS AGREEMENT MAY BE DISPLAYED, YOU HEREBY AGREE TO BE BOUND BY AND ACCEPT THE TERMS OF THIS AGREEMENT ("ACCEPTANCE").  THIS AGREEMENT SHALL ALSO APPLY TO ANY MAINTENANCE OR CONSULTING SERVICES ("SERVICES") YOU ACQUIRE FROM TIBCO RELATING TO THE PRODUCT.
+
+IF YOU DO NOT AGREE TO THESE TERMS, DO NOT: 1) DOWNLOAD OR INSTALL THE SOFTWARE, OR 2) ACCESS OR REGISTER TO ACCESS ANY CLOUD OR HOSTED SERVICES.  IF YOU DO NOT AGREE TO THESE TERMS, AND DELIVERY OF THE PRODUCTS IS AFFECTED, DO NOT USE, DOWNLOAD, INSTALL, COPY, OR ACCESS THE PRODUCTS.  PROMPTLY RETURN THE PRODUCT WITH PROOF OF PURCHASE TO THE PARTY FROM WHOM YOU ACQUIRED IT AND OBTAIN A REFUND OF THE AMOUNT YOU PAID, IF ANY.  IF YOU DOWNLOADED ANY SOFTWARE, CONTACT THE PARTY FROM WHOM YOU ACQUIRED IT.
+ 
+IF YOU ARE ACCEPTING THIS AGREEMENT ON BEHALF OF ANOTHER PERSON OR PERSONS, COMPANY OR OTHER LEGAL ENTITY, YOU REPRESENT AND WARRANT THAT YOU HAVE FULL AUTHORITY TO BIND EACH PERSON, COMPANY, OR LEGAL ENTITY TO THIS AGREEMENT. THIS AGREEMENT  IS ENTERED INTO BY AND BETWEEN TIBCO SOFTWARE INC. AND ANY ENTITIES, REGARDLESS OF CORPORATE STATUS, CONTROLLED BY, CONTROLLING, OR UNDER COMMON CONTROL WITH TIBCO SOFTWARE INC. (COLLECTIVELY, "TIBCO", "WE, "US" OR "OUR") AND YOU, YOUR CO-WORKERS, YOUR EMPLOYEES, AGENTS AND CONTRACTORS AND ANY OTHER PERSON OR PERSONS,  COMPANY OR OTHER LEGAL ENTITY ON WHOSE BEHALF YOU ARE ACCEPTING THIS AGREEMENT  (COLLECTIVELY, "CUSTOMER", "YOU" OR "YOUR"). 
+
+FURTHER, YOU WARRANT AND AGREE THAT YOU ARE NOT (A) A CITIZEN, NATIONAL OR RESIDENT OF, AND ARE NOT UNDER THE CONTROL OF, THE GOVERNMENT OF: CUBA, IRAN, NORTH KOREA, SUDAN, SYRIA, OR ANY OTHER COUNTRY TO WHICH THE UNITED STATES HAS PROHIBITED EXPORT, OR (B) LISTED ON THE UNITED STATES TREASURY DEPARTMENT'S LISTS OF SPECIALLY DESIGNATED NATIONALS, SPECIALLY DESIGNATED TERRORISTS, OR SPECIALLY DESIGNATED NARCOTIC TRAFFICKERS, OR LISTED ON THE UNITED STATES COMMERCE DEPARTMENT'S TABLE OF DENIAL ORDERS.  YOU FURTHER WARRANT AND AGREE THAT YOU WILL NOT (X) DOWNLOAD OR OTHERWISE EXPORT OR RE-EXPORT THE PRODUCTS OR MATERIALS, DIRECTLY OR INDIRECTLY, TO PERSONS ON THE ABOVE-MENTIONED LISTS, (Y) USE THE PRODUCTS OR MATERIALS FOR, AND WILL NOT ALLOW THE PRODUCTS OR MATERIALS TO BE USED FOR, ANY PURPOSES PROHIBITED BY UNITED STATES OR OTHER APPLICABLE LAW, INCLUDING, WITHOUT LIMITATION, FOR THE DEVELOPMENT, DESIGN, MANUFACTURE OR PRODUCTION OF NUCLEAR, CHEMICAL OR BIOLOGICAL WEAPONS OF MASS DESTRUCTION, AND (Z) DOWNLOAD OR OTHERWISE EXPORT OR RE-EXPORT THE PRODUCTS OR MATERIALS, DIRECTLY OR INDIRECTLY, TO THE ABOVE-MENTIONED COUNTRIES OR TO CITIZENS, NATIONALS OR RESIDENTS OF THOSE COUNTRIES. 
+
+1.	Upon your Acceptance, the following shall govern your use of the Products and Services, except to the extent all or any portion are (a) subject to a separate written, duly executed agreement, or (b) also subject to the terms of an Addendum at the end of this Agreement, in which case the terms of such Addendum shall control over inconsistent terms in this Agreement.
+
+2.	Definitions. Capitalized terms used but not defined herein shall have the meanings set forth at http://www.tibco.com/software/parametersdefinitions.jsp and http://www.tibco.com/software/processor.jsp.  "Order Form" means any purchase order or similar document, written agreement, or a web store or website order or registration requesting Products or Services. "Purchase Date" means the date the Order Form is accepted by us and in the case of a web store or web site transaction, the date of your download or access of a Product.  If proprietary source code is included as part of the standard delivery of a Product and is not subject to open source license terms, use of such source code is controlled by the terms of this Agreement. "Updates" means Product bug fixes, enhancements, and updates, if and when made generally available by us as part of Maintenance.   
+
+3.	Alpha, Beta, Developer Evaluation and Evaluation Licenses. If the Products are provided or accessed for demonstration or evaluation purposes or for alpha or beta testing, then you agree, subject to the license grant in Section 4 below and to the terms and conditions of this Agreement, (a) to use the Products solely for such purposes, (b) that the Products will not be used or deployed in a production or development environment, and (c) that such use shall automatically terminate upon the earlier of (i) thirty (30) days from the date you receive the right to install or access the Product, (ii) your receipt of notice of termination from us, or (iii) you no longer have access to the Cloud or the Hosted Services. If the Products are provided or accessed for Developer Evaluation, then you agree (a) to use the Products solely for development evaluation purposes, (b) that such use shall not be in a Production environment and (c) that such use shall automatically terminate upon the earlier of (i) ninety (90) days from the date you receive the right to install or access the Product, (ii) your receipt of notice of termination from us, or (iii) you no longer have access to the Cloud or the Hosted Services 
+
+
+4.	License Grant. 
+
+The Products are the property of TIBCO or its licensors and are protected by copyright and other laws. While TIBCO continues to own or have license rights to the Products, we hereby grant you a limited, non-transferable, non-exclusive license, subject to the terms and conditions of this Agreement, to use the Number of Units set forth in the Order Form solely for your internal business use.
+
+5.	License Term. The term of each license for a Product shall be either perpetual or limited as designated on an Order Form. If a Product is licensed on a limited term basis, then, unless otherwise set forth in an Order Form, the term shall commence on the Purchase Date and have the following duration: 
+
+•	Alpha, Beta and Evaluation - thirty (30) days
+•	Developer Evaluation – ninety (90) days  
+•	Hosted Services - one (1) year
+•	Cloud - one (1) year 
+•	Software purchases on a term limited basis -  three (3) years
+
+If you originally registered to download or access a Product for Alpha, Beta or Evaluation purposes, upon re-registration you may be permitted one (1) additional term. On expiration of a limited term, you must immediately cease using and return or destroy all copies of the Products and related Confidential Information.  
+
+6.	Delivery.  Products are delivered electronically, and delivery deemed complete when duly made available to you.
+
+7.	Equipment Lease or Purchase. 
+
+A. Lease.  The term of each Equipment Lease shall be limited as set forth in an Order Form. However, the first forty-five (45) days from the initial term Purchase Date shall be considered the first month of the term and charged as such.  Not less than sixty (60) days prior to expiration of the term, and provided that you are not then in breach of any term of this Agreement, TIBCO will send you a renewal invoice setting forth the payment terms for an additional Equipment Lease term of one (1) year. In order to renew such Equipment Lease, you must provide TIBCO with full payment of such lease renewal fee no later than thirty (30) days prior to expiration of the term.  Except as otherwise agreed upon in writing by the parties, your failure to provide the Lease Renewal payment in a timely manner will result in termination of the Equipment Lease term, in accordance with the terms of this Agreement.  	 
+
+B. Purchase.  When we accept your order to purchase the Equipment, we agree, subject to the terms and conditions of this Agreement, to sell you the Equipment described in the Order Form.   We transfer all title and risk to the hardware component of the Equipment when we or our agent ships the Equipment.  Furthermore, we reserve, and you consent to our reservation of, a purchase money security interest in the Equipment until we receive all fees set forth in the Order Form.  For a feature, conversion or upgrade involving the removal of parts in connection with the Equipment, which parts become our property, or for the replacement of Equipment or components thereof pursuant to the Equipment Maintenance Program Guide, we reserve, and you consent to our reservation of, a security interest in the Equipment until we receive payment of all fees due and the removed parts.  You hereby authorize us to file appropriate documents to permit the perfection of our purchase money security interest and you will provide reasonable assistance to perfect such interests
+
+C. Equipment Insurance.  If you are leasing Equipment, you shall procure and continuously maintain and pay for (i) all risk insurance against loss of and damage to the Equipment for not less than the full replacement value of each Unit, naming us as loss payee, and (ii) public liability and property damage insurance insuring against third party personal and property damage in respect of the use and operation of the Equipment in an amount not less than One Million Dollars ($1,000,000 USD) per occurrence.  Each insurance policy shall name us as an additional named insured and as a loss payee, and shall provide that there shall be no recourse against us for payment of premiums or other amounts.  The insurance shall be in such form and with such company or companies as shall be reasonably acceptable to us.  Promptly, but in no event later than thirty (30) days from the Purchase Date, you shall provide to us a certificate evidencing such insurance. You hereby appoint us as your attorney-in-fact to make claim for, receive payment of, and execute and endorse all documents, checks, or drafts received in payment for any loss or damage to the Equipment under any such insurance policy.  Failure to provide such certificate of insurance in a timely manner will be considered a breach of this Agreement.  
+
+D. Equipment Delivery.  For delivery of the TIBCO Messaging Appliance™, title is deemed to transfer upon delivery by our agent to our designated freight carrier, FCA Ontario, Canada (Incoterms 2000).  For delivery of all other Equipment, title is deemed to transfer upon delivery by us to our designated freight carrier, FCA TIBCO's premises (Incoterms 2000).  All freight, insurance and other shipping expenses shall be paid to the freight carrier by us.  You will be invoiced for shipping and handling charges listed on the Order Form.   Delivery is subject to the availability of Equipment.
+
+8.	Hosted Services. We shall use commercially reasonable efforts to make the Hosted Services you have purchased available 24 hours a day, 7 days a week, except for: (a) planned downtime under our direct control (of which we shall give at least 8 hours notice via the Hosted Services and which we shall schedule to the extent practicable during the weekend hours from 6:00 p.m. Pacific Standard Time Friday to 3:00 a.m. Pacific Standard Time Monday), (b) to the extent we are notified by third party service providers of planned downtime (of which we shall provide such notice to you via the Hosted services  as soon we can reasonably do so), or (c) any unavailability caused by circumstances beyond our reasonable control, including, without limitation, acts of God, acts of government, flood, fire, earthquakes, civil unrest, acts of terror, strikes or other labor problems, internet service or third party hosting provider failures or delays ("Force Majeure").  Hosted Services are provided in accordance with applicable laws and government regulations.  
+
+9.	Cloud. Provisioning of the Cloud will be confirmed electronically and delivery deemed complete when such confirmation is made available to you.  Provisioning of the Cloud requires an account be established for you in TIBCOmmunity.  You agree to and accept the Terms of Use for TIBCOmmunity (http://www.tibcommunity.com/themes/tibcotucon/resources/html/terms_of_use.html) if you use the credentials to access the TIBCOmmunity site. Certain Software Products may be provided for installation by you and are provided solely to enable the functionality of the Cloud, and may not be used for any other purpose. You are solely responsible for procuring your own account with the applicable TIBCO-approved third party service provider ("Provider") for the Cloud and for the technical operation of the content of your account.
+
+10.	Hosted Services and Cloud Restrictions.
+
+A.  In connection with your use of Hosted Services or a Cloud, you shall, in addition to the Restrictions below (i) be responsible for your users' compliance with this Agreement, (ii) be solely responsible for the accuracy, quality, integrity and lawfulness of and the means by which you acquire and disclose your data, (iii) not store or transmit infringing, libelous, or otherwise unlawful or tortious material or malicious code, nor store or transmit material in violation of third-party privacy rights, (iv) not sell, resell, rent or lease the Hosted Services or Cloud, (v) use commercially reasonable efforts to prevent unauthorized access to or use of the Hosted Services or Cloud, and notify us promptly of any such unauthorized access or use, (vi) not interfere with or disrupt the integrity or performance of any  Provider services or third-party data contained there, (vii) not attempt to gain unauthorized access to the Hosted Services, Cloud or their related systems or networks, and (vii) use the Hosted Services or Cloud only in accordance with any applicable Documentation and all applicable laws and government regulations. Hosted Services or the Cloud may be subject to other limitations, such as, for example, limits on disk storage space, on the number of calls or number of users, third party terms of use, etc., specified in the applicable Documentation, web store or web site. In the event that you receive any notice claiming that our content in connection with the Hosted Services, Cloud or any Provider services violates a third party's rights including, without limitation, notices pursuant to the Digital Millennium Copyright Act, you will promptly forward such notice to us, with a courtesy copy to TIBCO's General Counsel.
+
+B. You represent and warrant that you will not use Hosted Services or the Cloud to promote any illegal activities or post any materials in violation of any law.  In addition, in using and accessing Hosted Services or the Cloud, you shall not use any third party software in connection with a Provider's or TIBCO service in any manner that requires, pursuant to the license applicable to such software, that any Provider or TIBCO property or services be: (i) disclosed or distributed in source code form; (ii) made available free of charge to recipients; or (c) modifiable without restriction by recipients.  You represent and warrant that no software or content provided by you or your users in connection with your use of Hosted Services or the Cloud will contain any malicious or hidden mechanism or code for the purpose of damage or corrupting the Hosted Services, Cloud or the Provider service. 
+
+C. You are solely responsible for adequate security, protection and backup of your data and content.  We are not responsible for Provider services, unauthorized access to your data or content, or the deletion, destruction, damage, loss or failure to store any of your content or other data that you submit or use in Hosted Services or the Cloud.  
+
+11.	Restrictions. 
+
+A. You shall not (a) make more copies than the Number of Units (except for a reasonable number of copies for archival and disaster recovery purposes) or use any unlicensed versions of the Software; (b) use any Software not listed in an Order Form, even if such unlicensed software is made available to you as part of the general delivery mechanism for the Products; (c) provide access to the Products to anyone other than employees, contractors, or consultants who agree in writing to be bound by terms at least as protective of TIBCO as those in this Agreement; (d) sublicense, transfer, assign, distribute to any third party, pledge, lease, rent, or commercially share the Products or any of your rights under this Agreement (for the purposes of the foregoing a change in control of your company is deemed to be an assignment); (e) use the Products for purposes of providing a service bureau, including, without limitation, providing third-party hosting, or third-party application integration or application service provider-type services, or any similar services; (f) use the Products in connection with ultrahazardous activities, or any activity for which failure of the Products might result in death or serious bodily injury to you or a third party; or (g) directly or indirectly, in whole or in part, modify, translate, reverse engineer, decrypt, decompile, disassemble, make error corrections to, create derivative works based on, or otherwise attempt to discover the source code or underlying ideas or algorithms of the Products. You may engage in such conduct as is necessary to ensure the interoperability of the Software as required by law, provided that prior to commencing any decompilation or reverse engineering of any Software, you agree to observe strict obligations of confidentiality and provide us reasonable advance written notice and the opportunity to assist with or conduct such activity on your behalf and at your expense. 
+
+B.   Any additional license parameters applicable to Products are set forth at http://www.tibco.com/software/parametersdefinitions.jsp.
+
+
+12.	Proprietary Notices.  The Products, Documentation and Materials are proprietary to TIBCO and its licensors and protected by applicable U.S. and international patent, copyright, trademark and trade secret laws.  TIBCO and its licensors shall retain ownership in the Products, Documentation and Materials; all derivatives thereof (in whole or part); and any intellectual property or other rights embodied therein. All proprietary notices incorporated in or affixed to any Products, Documentation or Materials shall be duplicated by you on all copies of the Products, Documentation, or Material, as applicable, and shall not be altered, removed or obliterated.  Lease Equipment is, and shall at all times be and remain our sole and exclusive property; you have no right, title or interest therein or thereto except as expressly set forth in this Agreement.   You shall keep the Lease Equipment free and clear of all levies, liens and encumbrances and shall immediately notify us in writing of any circumstances with respect to the location of the Equipment which will adversely affect it or our security interests therein.  You shall not install, attach, mount or otherwise house the Lease Equipment in a manner that would render it a fixture under applicable law within the jurisdiction in which the Lease Equipment is located.
+
+13.	Extraordinary Corporate Event.  To the extent you or your successors or assigns enter into an Extraordinary Corporate Event after the Purchase Date, this Agreement shall not apply to those additional users, divisions or entities which were added to your organization as a result of the Extraordinary Corporate Event until those additional users, divisions or entities are added to this Agreement by way of a written amendment signed by our respective duly authorized officers.
+
+14.	Maintenance. 
+
+A. If you acquired Maintenance from a TIBCO authorized third party, Section 14(B) does not apply.  THE TERMS OF ANY MAINTENANCE SERVICES OR RELATED WARRANTY SHALL BE AS AGREED BY AND BETWEEN YOU AND THE TIBCO AUTHORIZED THIRD PARTY.  WE PROVIDE NO WARRANTY TO YOU WITH RESPECT TO MAINTENANCE SERVICES PROVIDED BY ANY THIRD PARTY.
+
+B. Maintenance, if ordered (or if included in Lease, Cloud or Hosted Services), is provided under the policies set forth in the Maintenance Program Guide in effect at the time Maintenance services are provided. The policies set forth in the Maintenance Program Guide and the Equipment Maintenance Program Guide, which are hereby incorporated into this Agreement, are subject to change at our discretion; however, the level of Maintenance service provided by us will not be materially reduced if we change the policies during any twelve (12) month period for which Maintenance fees have been paid by you. The current version of the Maintenance Program Guide can be accessed at http://www.tibco.com/services/support/default.jsp and the Equipment Maintenance Program Guide can be accessed at http://www.tibco.com/multimedia/equipment-maintenance-program-guide_tcm8-16160.pdf. 
+
+C. Any Updates provided by us or by our authorized resellers or distributors (if applicable) are subject to the terms and conditions of this Agreement. To receive Maintenance, all Products must be properly licensed and Maintenance fees paid. We are under no obligation to provide Maintenance in the event that Maintenance fees have not been properly and timely paid in full. 
+
+
+15.	Consulting Services.  
+
+A. You may procure installation, configuration, training or other consulting or support services ("Consulting Services") either in an Order Form, a purchase order (as set forth in the purchasing guidelines located at http://www.tibco.com/multimedia/purchase-order-guidelines_tcm8-5446.pdf ) or a work order executed by both parties ("Work Order"). We will use commercially reasonable efforts to perform such Consulting Services. Unless otherwise expressly agreed in a Work Order, all Consulting Services shall be: (i) performed on a time and materials basis ("T&M"), with meals, lodging, travel and other reasonably necessary out-of-pocket expenses ("Expenses") invoiced in addition to T&M fees, (ii) deemed accepted upon delivery, and (iii) subject to the Work Order Terms defined at http://www.tibco.com/resources/company/customer-relations/work-order-terms.pdf and incorporated hereto. 
+
+B. We hereby grant you a nonexclusive license to use the Materials (and a reasonable number of copies thereof) solely for your internal operations in conjunction with your use of the Products. Materials obtained during your attendance at or from your purchase of virtual training courses, unless otherwise agreed in an Order Form, are limited to the one (1) copy received by each attendee and may not be duplicated.
+
+C.  In the event that you are purchasing a license to specific training course content as set forth in an Order Form, the content of each such training course shall constitute a Product for the purpose of this Agreement.  Subject to your payment of fees due, you are granted a limited, non-transferable and non-exclusive license to use, modify, translate, create derivative works from, reproduce and distribute the Product solely for your internal business use: provided, however, that the copyright notices and any other legends of ownership are reproduced on each complete or partial copy of such Product. We retain all right, title and interest in the Product, excluding your Confidential Information.  All complete or partial copies of the Product in any form shall be subject to the same terms as the original copy. The term of each license and level of annual Maintenance for the Product shall be as set forth in the Order Form.
+
+16.	Limited Warranty. 
+
+A. If you obtained Software directly from us, we warrant for a period of thirty (30) days from the Purchase Date that (i) the media on which the Software is furnished will be free of defects in materials and workmanship under normal use; and (ii) the Software will substantially conform to its Documentation. This limited warranty extends to you personally and is not transferable. Your sole and exclusive remedy and the entire liability of TIBCO and its licensors under this limited warranty will be, at our option, to repair or replace (with respect to the affected Software product), or refund the Software license fee. In the event of a refund, this Agreement shall terminate solely with respect to the affected Software product, and you shall immediately cease all use of and return or destroy all copies of such Software.
+
+B. THIS WARRANTY DOES NOT APPLY TO ANY SOFTWARE WHICH (I) IS LICENSED FOR ALPHA, BETA, EVALUATION, TESTING OR DEMONSTRATION PURPOSES FOR WHICH WE DID NOT RECEIVE A LICENSE FEE; (II) HAS BEEN ALTERED OR MODIFIED (UNLESS BY US); (III) HAS NOT BEEN INSTALLED, OPERATED, REPAIRED, OR MAINTAINED IN ACCORDANCE WITH INSTRUCTIONS SUPPLIED BY US; (IV) HAS BEEN SUBJECTED TO ABNORMAL PHYSICAL OR ELECTRICAL STRESS, MISUSE, NEGLIGENCE, OR ACCIDENT; OR (V) IS USED IN VIOLATION OF ANY OTHER TERM OF THIS AGREEMENT. YOU AGREE TO PAY US FOR ANY MAINTENANCE OR CONSULTING SERVICES PROVIDED BY US RELATED TO A BREACH OF THE FOREGOING ON A T&M AND EXPENSE BASIS. IF YOU HAVE OBTAINED THE SOFTWARE FROM A RESELLER OR DISTRIBUTOR, THE TERMS OF ANY WARRANTY SHALL BE SOLELY AS PROVIDED BY SUCH RESELLER OR DISTRIBUTOR; WE PROVIDE NO WARRANTY TO YOU WITH RESPECT TO SUCH SOFTWARE.
+
+C. EXCEPT AS SPECIFIED IN THIS LIMITED WARRANTY, THE PRODUCTS AND SERVICES ARE PROVIDED "AS IS".  ALL EXPRESS OR IMPLIED CONDITIONS, REPRESENTATIONS, AND WARRANTIES INCLUDING, WITHOUT LIMITATION, ANY IMPLIED WARRANTY OR CONDITION OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE, NONINFRINGEMENT, SATISFACTORY QUALITY OR ARISING FROM A COURSE OF DEALING, USAGE, OR TRADE PRACTICE, ARE HEREBY EXCLUDED TO THE EXTENT ALLOWED BY APPLICABLE LAW.  CERTAIN THIRD PARTY SOFTWARE MAY BE PROVIDED TO CUSTOMER ALONG WITH CERTAIN PRODUCTS THIS THIRD PARTY SOFTWARE IS PROVIDED "AS IS", IS SUBJECT TO THE TERMS OF THE THIRD PARTY LICENSE, AND MAY ONLY BE USED WITH THE PRODUCTS WITH WHICH IT IS PROVIDED TO YOU.  SUCH THIRD PARTY SOFTWARE IS PROVIDED SOLELY AS AN ACCOMMODATION TO YOU AND YOU ARE UNDER NO OBLIGATION TO USE SUCH THIRD PARTY SOFTWARE. NO WARRANTY IS MADE REGARDING THE RESULTS OF ANY PRODUCTS OR SERVICES, THAT THE PRODUCTS WILL OPERATE WITHOUT ERRORS, PROBLEMS OR INTERRUPTIONS, THAT ERRORS OR BUGS WILL BE CORRECTED, OR THAT THE PRODUCT FUNCTIONALITY OR SERVICES WILL MEET YOUR REQUIREMENTS.  NO TIBCO DEALER, DISTRIBUTOR, AGENT OR EMPLOYEE IS AUTHORIZED TO MAKE ANY MODIFICATIONS, EXTENSIONS OR ADDITIONS TO THIS WARRANTY ON TIBCO'S BEHALF.
+
+17.	Indemnity. If you obtained the Software from us directly, then we agree at our own expense to defend or, at our option, to settle, any claim or action brought against you to the extent it is based on a claim that the unmodified Software infringes any patent issued by the United States, Canada, Australia, Japan, or any member of the European Union, or any copyright, or any trade secret of a third party. We will indemnify and hold you harmless from and against any damages, costs and fees reasonably incurred (including reasonable attorneys' fees) that are attributable to such claim or action and which are assessed against you in a final judgment provided that you promptly notify us in writing of such claim, we have the exclusive right to control such defense and/or settlement, and you provide reasonable assistance (at our expense) in the defense thereof. In no event shall you settle any claim, action or proceeding without our prior written approval. In the event of any such claim, litigation or threat thereof, we, at our sole option and expense, shall (a) procure for you the right to continue to use the Software, or (b) replace or modify the Software with functionally equivalent software. If such license or modification is not commercially reasonable (in our sole reasonable opinion), we may cancel this Agreement with respect to the affected Software product upon sixty days prior written notice to you and refund to you the unamortized portion of the associated license fees paid by you to us based on a five-year straight-line depreciation. This Section states our entire liability with respect to the infringement of any intellectual property rights, and you hereby expressly waive any other liabilities or obligations we have with respect thereto. The foregoing indemnity shall not apply to the extent that (x) any claim is based on or attributable to  modifications made by you to the Software, or portions thereof, (y) such claim would have been avoided by use of the then-current release version of the Software, or (z) your continued allegedly infringing activity after being provided with modifications that would have avoided the alleged infringement.  
+
+18.  Limitation of Liability. 
+
+A. EXCEPT AS PROVIDED UNDER THE INDEMNITY ABOVE; OR IN CONNECTION WITH THE MISAPPROPRIATION OF THE OTHER PARTY'S INTELLECTUAL PROPERTY, INCLUDING, WITHOUT LIMITATION, TRADE SECRETS; DAMAGES FOR BODILY INJURY, DEATH, DAMAGE TO REAL OR TANGIBLE PERSONAL PROPERTY; OR INTENTIONAL OR GROSS NEGLIGENCE (THE "EXCLUDED MATTERS"), IN NO EVENT WILL EITHER PARTY OR TIBCO'S LICENSORS BE LIABLE FOR ANY LOSS OR UNAVAILABILITY OF OR DAMAGE TO DATA, LOST REVENUE, LOST PROFITS, FAILURE TO REALIZE EXPECTED SAVINGS, DAMAGE TO REPUTATION, BUSINESS INTERRUPTION, DOWNTIME COSTS, OR ANY OTHER INDIRECT, INCIDENTAL, CONSEQUENTIAL, SPECIAL, PUNITIVE, EXEMPLARY OR SIMILAR TYPE OF DAMAGES ARISING OUT OF THIS AGREEMENT, THE USE OR THE INABILITY TO USE THE PRODUCTS, OR THE PROVISION OF ANY MAINTENANCE , CONSULTING SERVICES, EVEN IF A PARTY HAS BEEN ADVISED OR WAS AWARE OR SHOULD HAVE BEEN AWARE OF THE POSSIBILITY OF SUCH COSTS, EXPENSES OR DAMAGES. 
+
+B. EXCEPT FOR THE EXCLUDED MATTERS, IN NO EVENT SHALL A PARTY'S LIABILITY TO THE OTHER, WHETHER IN CONTRACT, TORT (INCLUDING ACTIVE OR PASSIVE NEGLIGENCE), BREACH OF WARRANTY, CLAIMS BY THIRD PARTIES OR OTHERWISE, EXCEED THE GREATER OF FIFTY THOUSAND DOLLARS ($50,000 USD) OR THE PRICE PAID BY YOU UNDER THE APPLICABLE ORDER FORM. 
+
+C. THE FOREGOING LIMITATIONS SHALL APPLY EVEN IF THE ABOVE-STATED REMEDY OR LIMITED WARRANTY FAILS OF ITS ESSENTIAL PURPOSE. BECAUSE SOME STATES OR JURISDICTIONS DO NOT ALLOW LIMITATION OR EXCLUSION OF CONSEQUENTIAL OR INCIDENTAL DAMAGES, THE ABOVE LIMITATION MAY NOT APPLY TO YOU. TO THE EXTENT ALLOWED BY LOCAL LAW, THESE LIMITATIONS WILL APPLY REGARDLESS OF THE BASIS OF LIABILITY, INCLUDING NEGLIGENCE, MISREPRESENTATION, BREACH OF ANY KIND, OR ANY OTHER CLAIMS IN CONTRACT, TORT OR OTHERWISE.
+
+19.	Confidentiality. 
+
+A. "Confidential Information" means any information disclosed by either party, whether or not marked, including, without limitation, the terms of this Agreement; the Products; Materials; individual contact information provided by either party; Product or related performance test results derived by you, including but not limited to benchmark test results; and your Protected Data (as defined in Section B below) and Output. Each party agrees to protect Confidential Information in the same manner as it protects its own Confidential Information (but using no less than a reasonable degree of protection) and shall only disclose Confidential Information to those with a need to know that information and who have agreed in writing to be bound by terms at least as protective as those contained in this Agreement.  Information will not be deemed Confidential Information if (i) available to the public other than by a breach of a confidentiality obligation, (ii) rightfully received from a third party not in breach of a confidentiality obligation, (iii) independently developed by one party without use of the Confidential Information of the other; (iv) known to the recipient at the time of disclosure (other than under a separate confidentiality obligation); or (v) produced in compliance with applicable law or court order, provided the other party is given reasonable advance notice of the obligation to produce Confidential Information. Each party agrees to indemnify the other for any damages (including reasonable expenses) the other may sustain resulting from the unauthorized use and/or disclosure of the other's Confidential Information.  The parties further agree that money damages would not be a sufficient remedy for a breach of confidentiality. The parties shall be entitled to seek injunctive or other equitable relief without the necessity of posting a bond even if otherwise normally required. Such injunctive or equitable relief shall not be the exclusive remedy for any breach of confidentiality, but shall be in addition to all other rights and remedies available at law or in equity.
+
+B. To the extent we are exposed to individual personal data owned or otherwise held by you during the provision of Hosted Services, Cloud, or Services, which is subject to various data protection laws and/or regulations ("Protected Data"), we agree to treat such Protected Data in accordance with the Customer Privacy and Security Statement set forth at http://www.tibco.com/customer_privacy_security_statement.jsp (the "Statement"). The policies and procedures set forth in the Statement as well as those set forth in the Data Protection Policy Statement at http://www.tibco.com/resources/data_protection_statement.pdf are in place to meet our obligations for the protection, integrity and confidentiality of any Protected Data which exceed our standard obligations to safeguard Confidential Information.
+
+C. Confidential Information shall remain the sole property of the disclosing party, and each party acknowledges and agrees that it does not acquire any rights therein. Use by a recipient of Confidential Information for the purposes contemplated under this Agreement, including, but not limited to, any configuration or use by you of Products or Materials shall not affect or diminish the disclosing party's rights, title and interest in and to Confidential Information.
+
+D. We may use any individual contact information provided by you or your users for support, product information and other business to business communications in connection with this Agreement. In the event you or your users wish to opt-out from receiving such communications, you or  your users  should do so on the web store or website page where you originally submitted provided your information or at http://forms2.tibco.com/unsubscribe/u/5042/768537d8eeb3af5338448782d1fa356e. Please note that communications may still be transmitted after the opt-out request has been submitted but before it has been processed.  
+
+E. You acknowledge and agree that any feedback, suggestions, comments, improvements, modifications and other information (including any ideas, concepts, "know-how" or techniques contained therein) that you provide to us about our Products or their performance (collectively, "Feedback") shall not be deemed as your Confidential Information and may be used, disclosed, disseminated and/or published by us for any purpose, including developing, manufacturing and marketing products incorporating Feedback, without obligation of any kind to you, and you waive any rights whatsoever in or to all Feedback.
+
+20.	Export. Products, Documentation, Materials and related technical data, are subject to U.S. export control laws, including without limitation the U.S. Export Administration Act and its associated regulations and may be subject to export or import regulations of other countries.   You agree that you will not nor permit your users to export or re-export the Licensor Software, Documentation and Materials in any form in violation of any applicable export or import laws of any jurisdiction.
+
+21.	Government Use. If the Products or  Services are being or have been acquired with U.S. Federal Government funds, or you are an agency, department, or other entity of the United States Government ("Government"), the use, duplication, reproduction, release, modification, disclosure or transfer of the Software, Maintenance or Services, or any related documentation of any kind, including technical data, or manuals, is restricted in accordance with Federal Acquisition Regulation 12.212 for civilian agencies and Defense Federal Acquisition Regulation Supplement 227.7202 for military agencies. The Products and Services are COMMERCIAL ITEMS AS DEFINED BY THE FEDERAL ACQUISITION REGULATION. Use by the Government is further restricted according to the terms of this Agreement and any amendment hereto.
+
+22.	Entire Agreement. This Agreement, and any terms which are incorporated by written reference (including written reference to information contained in a URL, Documentation or reference policy) constitutes the entire agreement between the parties with respect to the use of the Products and Services, and supersedes all proposals, oral or written, and all other representations, statements, negotiations and undertakings relating to the subject matter hereof.  All orders of Products or Services by you to us shall be deemed to occur, with or without reference, under the terms of this Agreement, unless expressly superseded by a signed written agreement between the parties. Except for additional terms you have agreed to in connection with our web stores or web sites, none of the terms of the Order Form (other than the product names, Number of Units, level of Maintenance, description of Consulting Services, and fees due in connection therewith) shall apply for any reason or purpose whatsoever, regardless of any statement on any Order Form to the contrary.  Neither the license to use granted in this Agreement nor the obligation to pay license fees are dependent upon the performance by any party of any Consulting Services or the supply of any other software program or product. 
+
+23.	Termination. 
+
+A. This Agreement and all Order Forms shall automatically terminate if: (i) either party files for bankruptcy, or otherwise goes into receivership, becomes insolvent or makes an assignment for the benefit of creditors; or (ii) a writ of attachment or execution is levied on the Equipment (where we are lessor) and is not released or satisfied within ten (10) days thereafter, or (iii) where we are lessor or in a Purchase where payment in full to us has not been made, if a receiver is appointed in any proceeding or action to which you are a party with authority to take possession or control of the Equipment.  In all cases, the Equipment shall be promptly returned to us and not be treated as your asset. 
+
+B. Maintenance or Consulting Services may be terminated: (i) by either party upon a default of the other, such default remaining uncured for fifteen (15) days from written notice from the non-defaulting party; (ii) upon the filing for bankruptcy or insolvency of the other party, (iii) by either party upon prior written notice at least sixty (60) days prior to the end of any annual Maintenance term; or (iv) by you for Consulting Services, upon ten (10) days prior written notice or (e)  by us for Consulting Services upon thirty (30) days prior written notice. Termination of Maintenance or Consulting Services shall not terminate this Agreement.
+
+C. A Cloud will terminate if or when your or our agreement for services with a Provider is terminated or otherwise expires for any reason. In the event of a termination of your Provider services, by Provider, in connection with a Cloud, without cause (where you are not in breach), to the extent you have pre-paid us fees for the Cloud, you may submit written notice requesting a refund, such notice to include evidence of Provider's termination without cause (e.g. a copy of Provider's notice of termination). Following receipt of such written notice, we will refund the pre-paid unearned pro-rata portion, from the date we received your notice, for the remaining Cloud term, or in the case of multiple Cloud purchases, each remaining term.  In the event of a termination, for any reason, of TIBCO Provider service accounts upon which we rely to provide Hosted Services or the Cloud, to the extent you have pre-paid us fees for Hosted Services or Cloud to us, we will refund, as of the date of notice of termination from Provider to us, for the unearned pro-rata portion of the prepaid fees.  
+
+D.  You may terminate this Agreement in its entirety at any time, in regard to Software, by destroying all copies of the Software. We may terminate this Agreement at any time, in regard to Software provided to you for evaluation or alpha/beta purposes.  In the case of an evaluation of Equipment, where we exercise our right to terminate the Lease for a reason other than your breach of the Agreement, and you have pre-paid fees for the month in which our termination occurs, we will refund the unearned monthly pro-rated fee to you within thirty (30) days following our receipt of the returned Equipment.
+ 
+E. If a license, Cloud, Hosted Services or Lease under this Agreement terminates or expires, or upon termination of this Agreement in its entirety for any reason, you shall (i) cease using the Products, Documentation, and related Confidential Information, and (ii) return or notify us in writing within thirty (30) days after termination that you have destroyed any Software (excluding Equipment), Documentation, related Confidential Information, and all copies thereof, whether or not modified or merged into other materials.  Equipment shall be returned in good repair, condition and working order (ordinary wear and tear resulting from proper use thereof excepted), by delivering the Equipment to our designated carrier. You are responsible for all costs associated with de-installation of equipment and returning the Equipment in accordance with the Equipment Return Guidelines available at http://www.tibco.com/resources/equipment_return_guidelines.pdf. 
+
+F. Termination of this Agreement, any license, Cloud, Hosted Services or Lease, or any Order Form shall not limit either party from pursuing other remedies available to it, including injunctive relief, nor shall such termination relieve you of your obligation to pay all fees that have accrued or are otherwise owed by you under this Agreement.  Except as set forth in sections entitled "Termination", "Limited Warranty" or "Indemnity", all fees paid under or in connection with this Agreement are non-refundable and no right of set-off exists. The parties' rights and obligations under this section and sections entitled "Limited Warranty", "Indemnity", "Limitation of Liability", "Proprietary Notices", "Confidentiality", "General", "Governing Law" and your warranties in connection with Hosted Services and the Cloud, shall survive the expiration or earlier termination of this Agreement.
+
+24. Open Source Software. If you use any third party software not supplied by us, including any open source software, in conjunction with any Product, you must ensure that such use does not require any of the following, pursuant to the terms of such software: (i) disclosure or distribution of any Product in source code form; or (ii) licensing of any Product for the purpose of making derivative works; or (iii) redistribution of any Product at no charge. For the avoidance of doubt, you may not combine Product with any software licensed under any version of or derivative of the GNU General Public License ("GPL") in any manner that could cause, or could be interpreted or asserted to cause, the Product or any modifications to the Product to become subject to the terms of the GPL.
+
+25.	Special Product Provisions. Software products TIBCO BusinessEvents®, TIBCO Collaborative Information Manager™, TIBCO ActiveMatrix® Service Performance Manager and TIBCO® ActiveFulfillment (and each of the foregoing, when included in any Bundle or Embedded/ Bundled Products) are subject to a restricted license and contain third party proprietary code that you may only use in conjunction with the Software and may be subject to additional terms as provided by us.
+
+26.	General. All payments of fees due shall be made in U.S. dollars, net 30 from Purchase Date or, for any other amounts coming due hereafter, net 30 from our invoice. Fees do not include sales, use, withholding, value-added or similar taxes, and you agree to pay all sales, use, value-added, goods and services, consumption, withholding, excise and any other similar taxes or government charges, exclusive of our income tax. You agree to pay all reasonable costs incurred (including reasonable attorneys' fees) in collecting past due amounts. Except as set forth in the sections entitled "Limited Warranty", "Indemnity" and "Termination" all fees paid under or in connection with this Agreement are non-refundable and no right of set-off exists. A service charge of one and one-half percent (1 ½%) per month will be applied to all invoices that are not paid on time. No delay in the performance of any obligation by either party, excepting all obligations to make payment, shall constitute a breach of this Agreement to the extent caused by Force Majeure. You hereby grant us and our independent auditors the right to audit your compliance with this Agreement and report any results to our licensors. You agree to provide reasonable assistance to ensure a complete and accurate audit by us and our independent auditors. If any portion of this Agreement is found to be void or unenforceable, the remaining provisions shall remain in full force and effect.  All notices related to this Agreement shall be in writing. Notices will be effective if dispatched by facsimile; or electronic mail; by hand; reliable overnight delivery service or first-class, pre-paid mail if sent to the contract address for the intended recipient set forth in the Order Form. A copy of any notice of default, breach or termination shall also being sent to that party's General Counsel.
+
+27.	Governing Law. This Agreement shall be governed by and construed in accordance with the laws of the State of California, United States of America, as if performed wholly within the state and without giving effect to the principles of conflict of law. The United Nations Convention on Contracts for the International Sale of Goods and the Uniform Computer Information Transactions Act are excluded from application hereto.
+
+Addenda:
+
+Third Party Software Notices:
+
+CERTAIN THIRD PARTY COMPONENTS MAY BE EMBEDDED IN OR BUNDLED WITH OR OTHERWISE INCLUDED IN THIS PRODUCT. THESE THIRD PARTY COMPONENTS MAY BE SUBJECT TO ADDITIONAL OR DIFFERENT LICENSE RIGHTS, TERMS AND CONDITIONS AND / OR REQUIRE CERTAIN NOTICES BY THEIR THIRD PARTY LICENSORS. TIBCO IS OBLIGED TO PASS ANY CURRENT AND FUTURE TERMS OF SUCH LICENSES THROUGH TO ITS LICENSEES.
+
+Arbor
+
+This software utilizes RPART software.  (c) 2002 Mayo Foundation for Medical Education and Research
+
+
+cURL 7.21.6
+
+COPYRIGHT AND PERMISSION NOTICE
+ 
+Copyright (c) 1996 - 2011, Daniel Stenberg, <daniel@haxx.se>.
+ 
+All rights reserved.
+ 
+Permission to use, copy, modify, and distribute this software for any purpose
+with or without fee is hereby granted, provided that the above copyright
+notice and this permission notice appear in all copies.
+ 
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT OF THIRD PARTY RIGHTS. IN
+NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM,
+DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR
+OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE
+OR OTHER DEALINGS IN THE SOFTWARE.
+ 
+Except as contained in this notice, the name of a copyright holder shall not
+be used in advertising or otherwise to promote the sale, use or other dealings
+in this Software without prior written authorization of the copyright holder.
+          
+
+   
+Editline Library (libedit) 3.0-20100424
+
+/*-
+ * Copyright (c) 2008 The NetBSD Foundation, Inc.
+ * All rights reserved.
+ *
+ * This code is derived from software contributed to The NetBSD Foundation
+ * by 
+ *
+ * Redistribution and use in source and binary forms, with or without
+ * modification, are permitted provided that the following conditions
+ * are met:
+ * 1. Redistributions of source code must retain the above copyright
+ *    notice, this list of conditions and the following disclaimer.
+ * 2. Redistributions in binary form must reproduce the above copyright
+ *    notice, this list of conditions and the following disclaimer in the
+ *    documentation and/or other materials provided with the distribution.
+ *
+ * THIS SOFTWARE IS PROVIDED BY THE NETBSD FOUNDATION, INC. AND CONTRIBUTORS
+ * ``AS IS'' AND ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED
+ * TO, THE IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR
+ * PURPOSE ARE DISCLAIMED.  IN NO EVENT SHALL THE FOUNDATION OR CONTRIBUTORS
+ * BE LIABLE FOR ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR
+ * CONSEQUENTIAL DAMAGES (INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF
+ * SUBSTITUTE GOODS OR SERVICES; LOSS OF USE, DATA, OR PROFITS; OR BUSINESS
+ * INTERRUPTION) HOWEVER CAUSED AND ON ANY THEORY OF LIABILITY, WHETHER IN
+ * CONTRACT, STRICT LIABILITY, OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE)
+ * ARISING IN ANY WAY OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE
+ * POSSIBILITY OF SUCH DAMAGE.
+ */
+
+IBM ICU 4.8.0
+
+ICU License - ICU 1.8.1 and later
+COPYRIGHT AND PERMISSION NOTICE
+Copyright (c) 1995-2009 International Business Machines Corporation and others 
+All rights reserved. 
+Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the "Software"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, provided that the above copyright notice(s) and this permission notice appear in all copies of the Software and that both the above copyright notice(s) and this permission notice appear in supporting documentation. 
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT OF THIRD PARTY RIGHTS. IN NO EVENT SHALL THE COPYRIGHT HOLDER OR HOLDERS INCLUDED IN THIS NOTICE BE LIABLE FOR ANY CLAIM, OR ANY SPECIAL INDIRECT OR CONSEQUENTIAL DAMAGES, OR ANY DAMAGES WHATSOEVER RESULTING FROM LOSS OF USE, DATA OR PROFITS, WHETHER IN AN ACTION OF CONTRACT, NEGLIGENCE OR OTHER TORTIOUS ACTION, ARISING OUT OF OR IN CONNECTION WITH THE USE OR PERFORMANCE OF THIS SOFTWARE. 
+Except as contained in this notice, the name of a copyright holder shall not be used in advertising or otherwise to promote the sale, use or other dealings in this Software without prior written authorization of the copyright holder.
+
+Info-ZIP unzip 6.0.0
+
+This is version 2007-Mar-4 of the Info-ZIP license.
+The definitive version of this document should be available at
+ftp://ftp.info-zip.org/pub/infozip/license.html indefinitely and
+a copy at http://www.info-zip.org/pub/infozip/license.html.
+
+
+Copyright (c) 1990-2007 Info-ZIP.  All rights reserved.
+
+For the purposes of this copyright and license, "Info-ZIP" is defined as
+the following set of individuals:
+
+   Mark Adler, John Bush, Karl Davis, Harald Denker, Jean-Michel Dubois,
+   Jean-loup Gailly, Hunter Goatley, Ed Gordon, Ian Gorman, Chris Herborth,
+   Dirk Haase, Greg Hartwig, Robert Heath, Jonathan Hudson, Paul Kienitz,
+   David Kirschbaum, Johnny Lee, Onno van der Linden, Igor Mandrichenko,
+   Steve P. Miller, Sergio Monesi, Keith Owens, George Petrov, Greg Roelofs,
+   Kai Uwe Rommel, Steve Salisbury, Dave Smith, Steven M. Schweda,
+   Christian Spieler, Cosmin Truta, Antoine Verheijen, Paul von Behren,
+   Rich Wales, Mike White.
+
+This software is provided "as is," without warranty of any kind, express
+or implied.  In no event shall Info-ZIP or its contributors be held liable
+for any direct, indirect, incidental, special or consequential damages
+arising out of the use of or inability to use this software.
+
+Permission is granted to anyone to use this software for any purpose,
+including commercial applications, and to alter it and redistribute it
+freely, subject to the above disclaimer and the following restrictions:
+
+    1. Redistributions of source code (in whole or in part) must retain
+       the above copyright notice, definition, disclaimer, and this list
+       of conditions.
+
+    2. Redistributions in binary form (compiled executables and libraries)
+       must reproduce the above copyright notice, definition, disclaimer,
+       and this list of conditions in documentation and/or other materials
+       provided with the distribution.  The sole exception to this condition
+       is redistribution of a standard UnZipSFX binary (including SFXWiz) as
+       part of a self-extracting archive; that is permitted without inclusion
+       of this license, as long as the normal SFX banner has not been removed
+       from the binary or disabled.
+
+    3. Altered versions--including, but not limited to, ports to new operating
+       systems, existing ports with new graphical interfaces, versions with
+       modified or added functionality, and dynamic, shared, or static library
+       versions not from Info-ZIP--must be plainly marked as such and must not
+       be misrepresented as being the original source or, if binaries,
+       compiled from the original source.  Such altered versions also must not
+       be misrepresented as being Info-ZIP releases--including, but not
+       limited to, labeling of the altered versions with the names "Info-ZIP"
+       (or any variation thereof, including, but not limited to, different
+       capitalizations), "Pocket UnZip," "WiZ" or "MacZip" without the
+       explicit permission of Info-ZIP.  Such altered versions are further
+       prohibited from misrepresentative use of the Zip-Bugs or Info-ZIP
+       e-mail addresses or the Info-ZIP URL(s), such as to imply Info-ZIP
+       will provide support for the altered versions.
+
+    4. Info-ZIP retains the right to use the names "Info-ZIP," "Zip," "UnZip,"
+       "UnZipSFX," "WiZ," "Pocket UnZip," "Pocket Zip," and "MacZip" for its
+       own source and binary releases.
+          
+   
+Info-ZIP zip 3.0.0
+
+This is version 2007-Mar-4 of the Info-ZIP license.
+The definitive version of this document should be available at
+ftp://ftp.info-zip.org/pub/infozip/license.html indefinitely and
+a copy at http://www.info-zip.org/pub/infozip/license.html.
+
+
+Copyright (c) 1990-2007 Info-ZIP.  All rights reserved.
+
+For the purposes of this copyright and license, "Info-ZIP" is defined as
+the following set of individuals:
+
+   Mark Adler, John Bush, Karl Davis, Harald Denker, Jean-Michel Dubois,
+   Jean-loup Gailly, Hunter Goatley, Ed Gordon, Ian Gorman, Chris Herborth,
+   Dirk Haase, Greg Hartwig, Robert Heath, Jonathan Hudson, Paul Kienitz,
+   David Kirschbaum, Johnny Lee, Onno van der Linden, Igor Mandrichenko,
+   Steve P. Miller, Sergio Monesi, Keith Owens, George Petrov, Greg Roelofs,
+   Kai Uwe Rommel, Steve Salisbury, Dave Smith, Steven M. Schweda,
+   Christian Spieler, Cosmin Truta, Antoine Verheijen, Paul von Behren,
+   Rich Wales, Mike White.
+
+This software is provided "as is," without warranty of any kind, express
+or implied.  In no event shall Info-ZIP or its contributors be held liable
+for any direct, indirect, incidental, special or consequential damages
+arising out of the use of or inability to use this software.
+
+Permission is granted to anyone to use this software for any purpose,
+including commercial applications, and to alter it and redistribute it
+freely, subject to the above disclaimer and the following restrictions:
+
+    1. Redistributions of source code (in whole or in part) must retain
+       the above copyright notice, definition, disclaimer, and this list
+       of conditions.
+
+    2. Redistributions in binary form (compiled executables and libraries)
+       must reproduce the above copyright notice, definition, disclaimer,
+       and this list of conditions in documentation and/or other materials
+       provided with the distribution.  The sole exception to this condition
+       is redistribution of a standard UnZipSFX binary (including SFXWiz) as
+       part of a self-extracting archive; that is permitted without inclusion
+       of this license, as long as the normal SFX banner has not been removed
+       from the binary or disabled.
+
+    3. Altered versions--including, but not limited to, ports to new operating
+       systems, existing ports with new graphical interfaces, versions with
+       modified or added functionality, and dynamic, shared, or static library
+       versions not from Info-ZIP--must be plainly marked as such and must not
+       be misrepresented as being the original source or, if binaries,
+       compiled from the original source.  Such altered versions also must not
+       be misrepresented as being Info-ZIP releases--including, but not
+       limited to, labeling of the altered versions with the names "Info-ZIP"
+       (or any variation thereof, including, but not limited to, different
+       capitalizations), "Pocket UnZip," "WiZ" or "MacZip" without the
+       explicit permission of Info-ZIP.  Such altered versions are further
+       prohibited from misrepresentative use of the Zip-Bugs or Info-ZIP
+       e-mail addresses or the Info-ZIP URL(s), such as to imply Info-ZIP
+       will provide support for the altered versions.
+
+    4. Info-ZIP retains the right to use the names "Info-ZIP," "Zip," "UnZip,"
+       "UnZipSFX," "WiZ," "Pocket UnZip," "Pocket Zip," and "MacZip" for its
+       own source and binary releases.
+
+
+Jailer Database Subsetting Tool 4.0.13
+
+                                 Apache License
+                           Version 2.0, January 2004
+                        http://www.apache.org/licenses/
+
+   TERMS AND CONDITIONS FOR USE, REPRODUCTION, AND DISTRIBUTION
+
+   1. Definitions.
+
+      "License" shall mean the terms and conditions for use, reproduction,
+      and distribution as defined by Sections 1 through 9 of this document.
+
+      "Licensor" shall mean the copyright owner or entity authorized by
+      the copyright owner that is granting the License.
+
+      "Legal Entity" shall mean the union of the acting entity and all
+      other entities that control, are controlled by, or are under common
+      control with that entity. For the purposes of this definition,
+      "control" means (i) the power, direct or indirect, to cause the
+      direction or management of such entity, whether by contract or
+      otherwise, or (ii) ownership of fifty percent (50%) or more of the
+      outstanding shares, or (iii) beneficial ownership of such entity.
+
+      "You" (or "Your") shall mean an individual or Legal Entity
+      exercising permissions granted by this License.
+
+      "Source" form shall mean the preferred form for making modifications,
+      including but not limited to software source code, documentation
+      source, and configuration files.
+
+      "Object" form shall mean any form resulting from mechanical
+      transformation or translation of a Source form, including but
+      not limited to compiled object code, generated documentation,
+      and conversions to other media types.
+
+      "Work" shall mean the work of authorship, whether in Source or
+      Object form, made available under the License, as indicated by a
+      copyright notice that is included in or attached to the work
+      (an example is provided in the Appendix below).
+
+      "Derivative Works" shall mean any work, whether in Source or Object
+      form, that is based on (or derived from) the Work and for which the
+      editorial revisions, annotations, elaborations, or other modifications
+      represent, as a whole, an original work of authorship. For the purposes
+      of this License, Derivative Works shall not include works that remain
+      separable from, or merely link (or bind by name) to the interfaces of,
+      the Work and Derivative Works thereof.
+
+      "Contribution" shall mean any work of authorship, including
+      the original version of the Work and any modifications or additions
+      to that Work or Derivative Works thereof, that is intentionally
+      submitted to Licensor for inclusion in the Work by the copyright owner
+      or by an individual or Legal Entity authorized to submit on behalf of
+      the copyright owner. For the purposes of this definition, "submitted"
+      means any form of electronic, verbal, or written communication sent
+      to the Licensor or its representatives, including but not limited to
+      communication on electronic mailing lists, source code control systems,
+      and issue tracking systems that are managed by, or on behalf of, the
+      Licensor for the purpose of discussing and improving the Work, but
+      excluding communication that is conspicuously marked or otherwise
+      designated in writing by the copyright owner as "Not a Contribution."
+
+      "Contributor" shall mean Licensor and any individual or Legal Entity
+      on behalf of whom a Contribution has been received by Licensor and
+      subsequently incorporated within the Work.
+
+   2. Grant of Copyright License. Subject to the terms and conditions of
+      this License, each Contributor hereby grants to You a perpetual,
+      worldwide, non-exclusive, no-charge, royalty-free, irrevocable
+      copyright license to reproduce, prepare Derivative Works of,
+      publicly display, publicly perform, sublicense, and distribute the
+      Work and such Derivative Works in Source or Object form.
+
+   3. Grant of Patent License. Subject to the terms and conditions of
+      this License, each Contributor hereby grants to You a perpetual,
+      worldwide, non-exclusive, no-charge, royalty-free, irrevocable
+      (except as stated in this section) patent license to make, have made,
+      use, offer to sell, sell, import, and otherwise transfer the Work,
+      where such license applies only to those patent claims licensable
+      by such Contributor that are necessarily infringed by their
+      Contribution(s) alone or by combination of their Contribution(s)
+      with the Work to which such Contribution(s) was submitted. If You
+      institute patent litigation against any entity (including a
+      cross-claim or counterclaim in a lawsuit) alleging that the Work
+      or a Contribution incorporated within the Work constitutes direct
+      or contributory patent infringement, then any patent licenses
+      granted to You under this License for that Work shall terminate
+      as of the date such litigation is filed.
+
+   4. Redistribution. You may reproduce and distribute copies of the
+      Work or Derivative Works thereof in any medium, with or without
+      modifications, and in Source or Object form, provided that You
+      meet the following conditions:
+
+      (a) You must give any other recipients of the Work or
+          Derivative Works a copy of this License; and
+
+      (b) You must cause any modified files to carry prominent notices
+          stating that You changed the files; and
+
+      (c) You must retain, in the Source form of any Derivative Works
+          that You distribute, all copyright, patent, trademark, and
+          attribution notices from the Source form of the Work,
+          excluding those notices that do not pertain to any part of
+          the Derivative Works; and
+
+      (d) If the Work includes a "NOTICE" text file as part of its
+          distribution, then any Derivative Works that You distribute must
+          include a readable copy of the attribution notices contained
+          within such NOTICE file, excluding those notices that do not
+          pertain to any part of the Derivative Works, in at least one
+          of the following places: within a NOTICE text file distributed
+          as part of the Derivative Works; within the Source form or
+          documentation, if provided along with the Derivative Works; or,
+          within a display generated by the Derivative Works, if and
+          wherever such third-party notices normally appear. The contents
+          of the NOTICE file are for informational purposes only and
+          do not modify the License. You may add Your own attribution
+          notices within Derivative Works that You distribute, alongside
+          or as an addendum to the NOTICE text from the Work, provided
+          that such additional attribution notices cannot be construed
+          as modifying the License.
+
+      You may add Your own copyright statement to Your modifications and
+      may provide additional or different license terms and conditions
+      for use, reproduction, or distribution of Your modifications, or
+      for any such Derivative Works as a whole, provided Your use,
+      reproduction, and distribution of the Work otherwise complies with
+      the conditions stated in this License.
+
+   5. Submission of Contributions. Unless You explicitly state otherwise,
+      any Contribution intentionally submitted for inclusion in the Work
+      by You to the Licensor shall be under the terms and conditions of
+      this License, without any additional terms or conditions.
+      Notwithstanding the above, nothing herein shall supersede or modify
+      the terms of any separate license agreement you may have executed
+      with Licensor regarding such Contributions.
+
+   6. Trademarks. This License does not grant permission to use the trade
+      names, trademarks, service marks, or product names of the Licensor,
+      except as required for reasonable and customary use in describing the
+      origin of the Work and reproducing the content of the NOTICE file.
+
+   7. Disclaimer of Warranty. Unless required by applicable law or
+      agreed to in writing, Licensor provides the Work (and each
+      Contributor provides its Contributions) on an "AS IS" BASIS,
+      WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or
+      implied, including, without limitation, any warranties or conditions
+      of TITLE, NON-INFRINGEMENT, MERCHANTABILITY, or FITNESS FOR A
+      PARTICULAR PURPOSE. You are solely responsible for determining the
+      appropriateness of using or redistributing the Work and assume any
+      risks associated with Your exercise of permissions under this License.
+
+   8. Limitation of Liability. In no event and under no legal theory,
+      whether in tort (including negligence), contract, or otherwise,
+      unless required by applicable law (such as deliberate and grossly
+      negligent acts) or agreed to in writing, shall any Contributor be
+      liable to You for damages, including any direct, indirect, special,
+      incidental, or consequential damages of any character arising as a
+      result of this License or out of the use or inability to use the
+      Work (including but not limited to damages for loss of goodwill,
+      work stoppage, computer failure or malfunction, or any and all
+      other commercial damages or losses), even if such Contributor
+      has been advised of the possibility of such damages.
+
+   9. Accepting Warranty or Additional Liability. While redistributing
+      the Work or Derivative Works thereof, You may choose to offer,
+      and charge a fee for, acceptance of support, warranty, indemnity,
+      or other liability obligations and/or rights consistent with this
+      License. However, in accepting such obligations, You may act only
+      on Your own behalf and on Your sole responsibility, not on behalf
+      of any other Contributor, and only if You agree to indemnify,
+      defend, and hold each Contributor harmless for any liability
+      incurred by, or claims asserted against, such Contributor by reason
+      of your accepting any such warranty or additional liability.
+
+   END OF TERMS AND CONDITIONS
+
+   APPENDIX: How to apply the Apache License to your work.
+
+      To apply the Apache License to your work, attach the following
+      boilerplate notice, with the fields enclosed by brackets "[]"
+      replaced with your own identifying information. (Don't include
+      the brackets!)  The text should be enclosed in the appropriate
+      comment syntax for the file format. We also recommend that a
+      file or class name and description of purpose be included on the
+      same "printed page" as the copyright notice for easier
+      identification within third-party archives.
+
+   Copyright [yyyy] [name of copyright owner]
+
+   Licensed under the Apache License, Version 2.0 (the "License");
+   you may not use this file except in compliance with the License.
+   You may obtain a copy of the License at
+
+       http://www.apache.org/licenses/LICENSE-2.0
+
+   Unless required by applicable law or agreed to in writing, software
+   distributed under the License is distributed on an "AS IS" BASIS,
+   WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+   See the License for the specific language governing permissions and
+   limitations under the License.
+              
+
+libarchive 2.8.4
+
+Copyright (c) 2003-2009 Tim Kientzle
+All rights reserved.
+
+Redistribution and use in source and binary forms, with or without modification, are permitted provided that the following conditions are met:
+
+    Redistributions of source code must retain the above copyright notice, this list of conditions and the following disclaimer.
+    Redistributions in binary form must reproduce the above copyright notice, this list of conditions and the following disclaimer in the documentation and/or other materials provided with the distribution.
+
+THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS "AS IS" AND ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE ARE DISCLAIMED. IN NO EVENT SHALL THE COPYRIGHT HOLDER OR CONTRIBUTORS BE LIABLE FOR ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL DAMAGES (INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR SERVICES; LOSS OF USE, DATA, OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER CAUSED AND ON ANY THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
+
+
+Mersenne Twister with improved initialization
+
+Copyright (C) 1997 - 2002, Makoto Matsumoto and Takuji Nishimura, All rights reserved.                          
+
+   Redistribution and use in source and binary forms, with or without
+   modification, are permitted provided that the following conditions
+   are met:
+
+     1. Redistributions of source code must retain the above copyright
+       notice, this list of conditions and the following disclaimer.
+
+     2. Redistributions in binary form must reproduce the above copyright
+        notice, this list of conditions and the following disclaimer in the
+        documentation and/or other materials provided with the distribution.
+
+     3. The names of its contributors may not be used to endorse or promote 
+        products derived from this software without specific prior written 
+        permission.
+
+   THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS
+   "AS IS" AND ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT
+   LIMITED TO, THE IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR
+   A PARTICULAR PURPOSE ARE DISCLAIMED.  IN NO EVENT SHALL THE COPYRIGHT OWNER OR
+  CONTRIBUTORS BE LIABLE FOR ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL,
+   EXEMPLARY, OR CONSEQUENTIAL DAMAGES (INCLUDING, BUT NOT LIMITED TO,
+   PROCUREMENT OF SUBSTITUTE GOODS OR SERVICES; LOSS OF USE, DATA, OR
+   PROFITS; OR BUSINESS INTERRUPTION) HOWEVER CAUSED AND ON ANY THEORY OF
+   LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT (INCLUDING
+   NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF THIS
+   SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
+
+
+OpenSSL 1.0.0d
+
+License
+This is a copy of the current LICENSE file inside the CVS repository. 
+
+  LICENSE ISSUES
+  ==============
+
+  The OpenSSL toolkit stays under a dual license, i.e. both the conditions of
+  the OpenSSL License and the original SSLeay license apply to the toolkit.
+  See below for the actual license texts. Actually both licenses are BSD-style
+  Open Source licenses. In case of any license issues related to OpenSSL
+  please contact openssl-core@openssl.org.
+
+  OpenSSL License
+  ---------------
+
+/* ====================================================================
+ * Copyright (c) 1998-2011 The OpenSSL Project.  All rights reserved.
+ *
+ * Redistribution and use in source and binary forms, with or without
+ * modification, are permitted provided that the following conditions
+ * are met:
+ *
+ * 1. Redistributions of source code must retain the above copyright
+ *    notice, this list of conditions and the following disclaimer.
+ *
+ * 2. Redistributions in binary form must reproduce the above copyright
+ *    notice, this list of conditions and the following disclaimer in
+ *    the documentation and/or other materials provided with the
+ *    distribution.
+ *
+ * 3. All advertising materials mentioning features or use of this
+ *    software must display the following acknowledgment:
+ *    "This product includes software developed by the OpenSSL Project
+ *    for use in the OpenSSL Toolkit. (http://www.openssl.org/)"
+ *
+ * 4. The names "OpenSSL Toolkit" and "OpenSSL Project" must not be used to
+ *    endorse or promote products derived from this software without
+ *    prior written permission. For written permission, please contact
+ *    openssl-core@openssl.org.
+ *
+ * 5. Products derived from this software may not be called "OpenSSL"
+ *    nor may "OpenSSL" appear in their names without prior written
+ *    permission of the OpenSSL Project.
+ *
+ * 6. Redistributions of any form whatsoever must retain the following
+ *    acknowledgment:
+ *    "This product includes software developed by the OpenSSL Project
+ *    for use in the OpenSSL Toolkit (http://www.openssl.org/)"
+ *
+ * THIS SOFTWARE IS PROVIDED BY THE OpenSSL PROJECT ``AS IS'' AND ANY
+ * EXPRESSED OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE
+ * IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR
+ * PURPOSE ARE DISCLAIMED.  IN NO EVENT SHALL THE OpenSSL PROJECT OR
+ * ITS CONTRIBUTORS BE LIABLE FOR ANY DIRECT, INDIRECT, INCIDENTAL,
+ * SPECIAL, EXEMPLARY, OR CONSEQUENTIAL DAMAGES (INCLUDING, BUT
+ * NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR SERVICES;
+ * LOSS OF USE, DATA, OR PROFITS; OR BUSINESS INTERRUPTION)
+ * HOWEVER CAUSED AND ON ANY THEORY OF LIABILITY, WHETHER IN CONTRACT,
+ * STRICT LIABILITY, OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE)
+ * ARISING IN ANY WAY OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED
+ * OF THE POSSIBILITY OF SUCH DAMAGE.
+ * ====================================================================
+ *
+ * This product includes cryptographic software written by Eric Young
+ * (eay@cryptsoft.com).  This product includes software written by Tim
+ * Hudson (tjh@cryptsoft.com).
+ *
+ */
+
+ Original SSLeay License
+ -----------------------
+
+/* Copyright (C) 1995-1998 Eric Young (eay@cryptsoft.com)
+ * All rights reserved.
+ *
+ * This package is an SSL implementation written
+ * by Eric Young (eay@cryptsoft.com).
+ * The implementation was written so as to conform with Netscapes SSL.
+ *
+ * This library is free for commercial and non-commercial use as long as
+ * the following conditions are aheared to.  The following conditions
+ * apply to all code found in this distribution, be it the RC4, RSA,
+ * lhash, DES, etc., code; not just the SSL code.  The SSL documentation
+ * included with this distribution is covered by the same copyright terms
+ * except that the holder is Tim Hudson (tjh@cryptsoft.com).
+ *
+ * Copyright remains Eric Young's, and as such any Copyright notices in
+ * the code are not to be removed.
+ * If this package is used in a product, Eric Young should be given attribution
+ * as the author of the parts of the library used.
+ * This can be in the form of a textual message at program startup or
+ * in documentation (online or textual) provided with the package.
+ *
+ * Redistribution and use in source and binary forms, with or without
+ * modification, are permitted provided that the following conditions
+ * are met:
+ * 1. Redistributions of source code must retain the copyright
+ *    notice, this list of conditions and the following disclaimer.
+ * 2. Redistributions in binary form must reproduce the above copyright
+ *    notice, this list of conditions and the following disclaimer in the
+ *    documentation and/or other materials provided with the distribution.
+ * 3. All advertising materials mentioning features or use of this software
+ *    must display the following acknowledgement:
+ *    "This product includes cryptographic software written by
+ *     Eric Young (eay@cryptsoft.com)"
+ *    The word 'cryptographic' can be left out if the rouines from the library
+ *    being used are not cryptographic related :-).
+ * 4. If you include any Windows specific code (or a derivative thereof) from
+ *    the apps directory (application code) you must include an acknowledgement:
+ *    "This product includes software written by Tim Hudson (tjh@cryptsoft.com)"
+ *
+ * THIS SOFTWARE IS PROVIDED BY ERIC YOUNG ``AS IS'' AND
+ * ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE
+ * IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE
+ * ARE DISCLAIMED.  IN NO EVENT SHALL THE AUTHOR OR CONTRIBUTORS BE LIABLE
+ * FOR ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL
+ * DAMAGES (INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS
+ * OR SERVICES; LOSS OF USE, DATA, OR PROFITS; OR BUSINESS INTERRUPTION)
+ * HOWEVER CAUSED AND ON ANY THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT
+ * LIABILITY, OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY
+ * OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF
+ * SUCH DAMAGE.
+ *
+ * The licence and distribution terms for any publically available version or
+ * derivative of this code cannot be changed.  i.e. this code cannot simply be
+ * copied and put under another distribution licence
+ * [including the GNU Public Licence.]
+ */
+
+zlib 1.2.5
+
+This product includes Zlib software, Copyright
+1995-2010 Jean-loup Gailly and Mark Adler.
+

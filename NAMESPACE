@@ -1,0 +1,32 @@
+importFrom(grDevices, dev.off)
+importFrom(utils, capture.output)
+if(.Platform$OS.type == "windows") {
+    importFrom(utils, readRegistry)    
+}
+
+# compareS.R
+export(
+    configureREvaluator,
+    makeREvaluator,
+    TERREvaluator,
+    REvaluator,
+    REvaluate,
+    LocalEvaluator,
+    DefaultREvaluators,
+    multiREvaluator,
+    RCompare,
+    pushPATH,
+    popPATH)
+S3method(print,REvaluator)
+
+# sideBySide.R
+S3method(print, sideBySide)
+export(
+    sideBySide)
+
+# all.equal.R
+# S3method(all.equal, qr)
+
+# RGraph.R
+export(
+    RGraph)
