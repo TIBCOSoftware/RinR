@@ -1,3 +1,6 @@
+# Copyright © 2020. TIBCO Software Inc.
+# This file is subject to the license terms contained
+# in the license file that is distributed with this file.
 {
     # This will fail if R on this machine cannot run png().
     r1 <- RinR::RGraph(display=FALSE, plot(1:10))
