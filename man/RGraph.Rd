@@ -15,7 +15,8 @@ RGraph(expr, substitute = TRUE,
     verbose = FALSE, display = FALSE,
     file = NULL,
     returnFilename = FALSE,
-    viewer = if (graphicsDevice == "win.metafile") browseURL else getOption("viewer", default=browseURL),
+    viewer = if(graphicsDevice == "win.metafile") browseURL else
+        getOption("viewer", default=browseURL),
     REvaluator. = RinR::REvaluator)
 }
 \arguments{
