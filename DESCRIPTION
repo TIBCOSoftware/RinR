@@ -3,7 +3,7 @@ Title: Evaluate R Expressions in a Different R Interpreter
 Version: 1.5-2
 License:  BSD_3_clause + file LICENSE
 Author: TIBCO Software Inc.
-Maintainer: TIBCO Software Inc. <Support@tibco.com>
+Maintainer: TIBCO Software Inc. <support@tibco.com>
 VignetteBuilder: knitr
-Description: This package contains functions to evaluate R expressions
-  in different R language interpreters and to compare the results.
+Description: Functions to evaluate R expressions in different R language
+  interpreters and to compare the results.

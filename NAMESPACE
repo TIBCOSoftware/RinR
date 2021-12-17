@@ -1,5 +1,7 @@
 importFrom(grDevices, dev.off)
-importFrom(utils, capture.output)
+importFrom("utils",
+    "browseURL",
+    "capture.output")
 if(.Platform$OS.type == "windows") {
     importFrom(utils, readRegistry)    
 }

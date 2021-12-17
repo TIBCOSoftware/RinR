@@ -11,7 +11,7 @@ side-by-side columns.
 \usage{
 sideBySide(x, PRINTFUN = NULL)
 \method{print}{sideBySide}(x, \dots, PRINTFUN = attr(x, ".PRINTFUN"),
-    sep = " | ", width = getOption("width"))
+    sep = " | ", width = getOption("width", 80))
 }
 \arguments{
   \item{x}{
