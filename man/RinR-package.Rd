@@ -148,10 +148,6 @@ myData <- subset(iris, Species == "setosa", -Species)
 RCompare(prcomp(myData), data = "myData")
 }
 }
-\section{File Info}{
-  \preformatted{
-  }
-}
 \section{R Version}{
 R-3.0.1
 }
