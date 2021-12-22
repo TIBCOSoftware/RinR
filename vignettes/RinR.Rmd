@@ -1,17 +1,18 @@
-<!--
-%\VignetteEngine{knitr::knitr}
-%\VignetteIndexEntry{RinR Package}
--->
+---
+title: "RinR"
+author: "Stephen Kaluzny"
+output: rmarkdown::html_vignette
+vignette: >
+  %\VignetteEngine{knitr::rmarkdown}
+  %\VignetteIndexEntry{RinR}
+---
+
 <!--
 Copyright 2021. TIBCO Software Inc.
 This file is subject to the license terms contained
 in the license file that is distributed with this file.
 -->
 
-# RinR Package
-
-Introduction
-------------
 The RinR package provides functions for running code in one R interpreter
 from within another R interpreter.
 The R interpreters can be different versions of open-source R
@@ -29,8 +30,7 @@ The package should also soon be available on CRAN.
 Along with the `RinR` package, this vignette uses the `MASS` and `lattice` packages that are included with open-source R.
 The `ggplot2` and `devtools` packages from CRAN are also used.
 
-Evaluators
-----------
+## Evaluators
 The main functions of the RinR package are the evaluators.
 These functions execute a given expression in the specified R interpreter.
 The specified R interpreter is started with these command
@@ -67,8 +67,8 @@ The RinR package comes with several default evaluators.
 These evaluators are created with the `configureREvaluator` function
 when the RinR package is loaded.
 
-Finding the R Interpreters
----------------------
+## Finding the R Interpreters
+
 The RinR package must be able to find the various R interpreters that you
 want the package to evaluate code in.
 
@@ -136,8 +136,8 @@ rlmFit <- REvaluate({library(MASS); rlm(body_mass_g ~ bill_depth_mm + sex,
     peng)}, data = list(peng = palmerpenguins::penguins))
 ```
 
-`multiREvaluator` and `RCompare`
---------------------------------
+## `multiREvaluator` and `RCompare`
+
 The `multiREvaluator` function evaluates an expression in one
 or more R interpreters.
 The specific R interpreters used are specified as a list of `REvaluator`
@@ -184,6 +184,7 @@ sideBySide(list(Default=terms(y ~ 1), NoIntercept=terms(y ~ -1)),
 ```
 
 ## Installing Packages with RinR
+
 To use packages installed in Open Source R within TERR you need to
 let TERR know where to find the packages.
 The `.libPaths` function sets the search path for finding packages.
@@ -251,8 +252,8 @@ library(medley, lib=tlib)
 rmse(true=c(1:5), c(.5, 1.5, 3, 4.5, 5.5))
 ```
 
-RGraph
-------
+## RGraph
+
 The `RGraph` function generates graphics by using an REvaluator to
 send an expression that creates a graph to R, evaluate it and send the 
 resulting graph back to the calling interpreter.
@@ -311,8 +312,8 @@ writeBin(gg, "ggplot.png")
 knitr::include_graphics("ggplot.png")
 ```
 
-Using `RGraph` with Spotfire Data Functions
------------------------------------------
+## Using `RGraph` with Spotfire Data Functions
+
 The `RGraph` function can be used to create R graphics in
 TERR data function.
 The resulting graphics is stored as a raw binary object
