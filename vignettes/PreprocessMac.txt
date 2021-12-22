@@ -1,9 +1,0 @@
-# Copyright 2021. TIBCO Software Inc.
-# This file is subject to the license terms contained
-# in the license file that is distributed with this file.
-
-NEWRHOME=/Library/Frameworks/R.framework/Resources
-NEWRVER=3.4.4
-OLDRHOME=/Library/Frameworks/R.framework/Versions/3.3/Resources
-OLDRVER=3.3.3
-
