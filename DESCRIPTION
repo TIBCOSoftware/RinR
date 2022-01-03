@@ -1,6 +1,6 @@
 Package: RinR
 Title: Evaluate R Expressions in a Different R Interpreter
-Version: 1.5-2
+Version: 1.6-0
 License:  BSD_3_clause + file LICENSE
 Author: TIBCO Software Inc.
 Maintainer: TIBCO Software Inc. <support@tibco.com>
