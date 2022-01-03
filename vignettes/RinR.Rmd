@@ -27,8 +27,13 @@ The package can be downloaded from the TERR community site for
 use with R.
 The package should also soon be available on CRAN.
 
-Along with the `RinR` package, this vignette uses the `MASS` and `lattice` packages that are included with open-source R.
-The `ggplot2` and `devtools` packages from CRAN are also used.
+Along with the `RinR` package, this vignette uses the `MASS` package that is
+included with open-source R.
+The `minimax` and `devtools` packages from CRAN are also used.
+
+```{r load_RinR}
+library(RinR)
+```
 
 ## Evaluators
 The main functions of the RinR package are the evaluators.
@@ -51,13 +56,30 @@ that you want to evaluate an expression in.
 The `makeEvaluator` function is used to create an evaluator
 for a particular R interpreter.
 
-```{r makeREvaluator}
-library(RinR)
+```{r version.string, show=FALSE, echo=FALSE}
+vs_4.0.5 <-
+    list(`R version 4.0.5 (2021-03-31)` = "R version 4.0.5 (2021-03-31)")
+vs_4.1.2 <-
+    list(`R version 4.1.2 (2021-11-01)` = "R version 4.1.2 (2021-11-01)")
+```
+
+```{r makeREvaluator, eval=FALSE}
 R4.1.2 <- makeREvaluator("R", RHome="/home/R/R-4.1.2")
-R4.1.2(version$version.string)
 R4.0.5 <- makeREvaluator("R", RHome="/home/R/R-4.0.5")
+```
+```{r vs_412, eval=FALSE}
+R4.1.2(version$version.string)
+```
+```{r print_vs_412, echo=FALSE}
+vs_4.1.2
+```
+```{r vs_405, eval=FALSE}
 R4.0.5(version$version.string)
 ```
+```{r print_vs_405, echo=FALSE}
+vs_4.0.5
+```
+
 The RinR package comes with several default evaluators.
 
 * `LocalEvaluator` - the current interpreter (R or TERR)
