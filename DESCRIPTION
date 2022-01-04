@@ -4,7 +4,7 @@ Version: 1.6-1
 License:  BSD_3_clause + file LICENSE
 Author: TIBCO Software Inc.
 Maintainer: TIBCO Software Inc. <support@tibco.com>
-Suggests: knitr, MASS, minimax, palmerpenguins, withr
+Suggests: knitr, rmarkdown, MASS, minimax, palmerpenguins, withr
 VignetteBuilder: knitr
 Description: Functions to evaluate R expressions in different R language
   interpreters and to compare the results.

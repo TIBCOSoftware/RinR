@@ -1,10 +1,10 @@
 ---
-title: "RinR"
+title: "Intro to the RinR Package"
 author: "Stephen Kaluzny"
 output: rmarkdown::html_vignette
 vignette: >
   %\VignetteEngine{knitr::rmarkdown}
-  %\VignetteIndexEntry{RinR}
+  %\VignetteIndexEntry{Intro to the RinR Package}
 ---
 
 <!--
@@ -65,19 +65,13 @@ vs_4.1.2 <-
 
 ```{r makeREvaluator, eval=FALSE}
 R4.1.2 <- makeREvaluator("R", RHome="/home/R/R-4.1.2")
-R4.0.5 <- makeREvaluator("R", RHome="/home/R/R-4.0.5")
-```
-```{r vs_412, eval=FALSE}
 R4.1.2(version$version.string)
-```
-```{r print_vs_412, echo=FALSE}
-vs_4.1.2
-```
-```{r vs_405, eval=FALSE}
+## $`R version 4.1.2 (2021-11-01)`
+## [1] "R version 4.1.2 (2021-11-01)"
+R4.0.5 <- makeREvaluator("R", RHome="/home/R/R-4.0.5")
 R4.0.5(version$version.string)
-```
-```{r print_vs_405, echo=FALSE}
-vs_4.0.5
+## $`R version 4.0.5 (2021-03-31)`
+## [1] "R version 4.0.5 (2021-03-31)"
 ```
 
 The RinR package comes with several default evaluators.
@@ -145,7 +139,6 @@ will be called.
 The argument can either be a character vector or a list with named components.
 
 ```{r REvaluate02}
-REvaluate(log2(p), TERREvaluator, data=list(p=16:32))
 p <- 60:67
 REvaluate(log2(p), REvaluator, data="p")
 ```
