@@ -127,11 +127,15 @@ for the current R / TERR session.
 ## Using `REvaluate`
 
 `REvaluate` directly returns the value from the expression.
-```{r REvaluate01}
+```{r REvaluate01a}
 REvaluate(version$version.string, LocalEvaluator)
+```
+```{r REvaluate01b}
 REvaluate(version$language, REvaluator)
+```
+```{r REvaluate01c, eval=FALSE}
 REvaluate(version$language, TERREvaluator)
-REvaluate(version$version.string, LocalEvaluator)
+## [1] "TERR"
 ```
 
 The `data` argument to `REvaluate` is used to pass data to the R engine that
