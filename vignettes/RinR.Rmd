@@ -1,5 +1,5 @@
 ---
-title: "Intro to the RinR Package"
+title: "Introduction to the RinR Package"
 author: "Stephen Kaluzny"
 output: rmarkdown::html_vignette
 vignette: >
@@ -173,18 +173,36 @@ other values.
 The return object is of class `"sideBySide"` and there is a `print`
 method for the class to display the results.
 
-```{r RCompare01}
-RCompare(log2(xTest), data = list(xTest=4:16))
+```{r RCompare01, eval=FALSE}
+## RCompare(log2(xTest), data = list(xTest=4:8))
+## R version 4.1.2 (2021-11-01)   | TERR version 6.0.0 (2021-11-30)
+## [1] 2.000000 2.321928 2.584963 | [1] 2.000000 2.321928 2.584963
+## [4] 2.807355 3.000000          | [4] 2.807355 3.000000
+## 
+## Attributes:
+##   $all.equal
+##   $all.equal$R version 4.1.2 (2021-11-01) vs. TERR version 6.0.0 (2021-11-30)
+##   [1] TRUE
 ```
 
 Here is an example where TERR and open-source R differ.
 The `seq.Date` function in TERR uses the last day of each month if the `from` argument is
 a last day, even if the subsequent months have less days.
 Open-source R moves into the next month if the number of days is less than the `from` argument.
-```{r RCompare02}
-#TERR4.2 <- makeREvaluator("TERR", RHome="/home/TERR/TERR-4.2.0")
-#R3.3.1 <- makeREvaluator("R", RHome="C:/Program Files/R/R-3.3.1")
+```{r RCompare02, eval=FALSE}
 RCompare(seq(as.Date("2000-01-31"), by = "months", length = 12))
+## R version 4.1.2 (2021-11-01)   | TERR version 6.0.0 (2021-11-30)
+##  [1] "2000-01-31" "2000-03-02" |  [1] "2000-01-31" "2000-02-29"
+##  [3] "2000-03-31" "2000-05-01" |  [3] "2000-03-31" "2000-04-30"
+##  [5] "2000-05-31" "2000-07-01" |  [5] "2000-05-31" "2000-06-30"
+##  [7] "2000-07-31" "2000-08-31" |  [7] "2000-07-31" "2000-08-31"
+##  [9] "2000-10-01" "2000-10-31" |  [9] "2000-09-30" "2000-10-31"
+## [11] "2000-12-01" "2000-12-31" | [11] "2000-11-30" "2000-12-31"
+##
+## Attributes:
+##   $all.equal
+##   $all.equal$R version 4.1.2 (2021-11-01) vs. TERR version 6.0.0 (2021-11-3  0)
+##   [1] "Mean relative difference: 0.0001076079"
 ```
 
 There is a `sideBySide` function that converts any list into
