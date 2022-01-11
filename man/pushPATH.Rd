@@ -51,8 +51,10 @@ where to find the R and TERR executables.
 \code{\link{RCompare}}, \code{\link{REvaluator}}
 }
 \examples{
+\dontrun{
 pushPATH("C:/Program Files/R/R-3.0.1/bin")
 REvaluate(version$version.string)
+}
 }
 %% Add one or more standard keywords, one per line
 \keyword{utils}
