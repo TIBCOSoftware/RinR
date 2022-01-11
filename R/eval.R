@@ -5,8 +5,8 @@
 RinR.env <- new.env()
 with(RinR.env,
     {
-        serializationVersionToRemote <- 2L
-        serializationVersionFromRemote <- 2L
+        serializationVersionToRemote <- 3L
+        serializationVersionFromRemote <- 3L
     }
 )
 
