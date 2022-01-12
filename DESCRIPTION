@@ -1,10 +1,11 @@
 Package: RinR
 Title: Evaluate R Expressions in a Different R Interpreter
-Version: 1.6-3
-License:  BSD_3_clause + file LICENSE
+Version: 1.6-4
 Author: TIBCO Software Inc.
-Maintainer: TIBCO Software Inc. <support@tibco.com>
+Maintainer: Stephen Kaluzny <spkaluzny@gmail.com>
+Imports: grDevices, utils
 Suggests: knitr, rmarkdown, MASS, minimax, palmerpenguins, withr
+License:  BSD_3_clause + file LICENSE
 VignetteBuilder: knitr
 Description: Functions to evaluate R expressions in different R language
   interpreters and to compare the results.

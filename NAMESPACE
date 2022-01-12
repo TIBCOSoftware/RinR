@@ -7,7 +7,7 @@ importFrom("utils",
     "browseURL",
     "capture.output")
 if(.Platform$OS.type == "windows") {
-    importFrom(utils, readRegistry)    
+    importFrom(utils, readRegistry, shortPathName)    
 }
 
 # compareS.R
