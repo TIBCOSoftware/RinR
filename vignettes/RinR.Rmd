@@ -1,0 +1,221 @@
+---
+title: "Introduction to the RinR Package"
+author: "Stephen Kaluzny"
+output: rmarkdown::html_vignette
+vignette: >
+  %\VignetteEngine{knitr::rmarkdown}
+  %\VignetteIndexEntry{Intro to the RinR Package}
+---
+
+<!--
+Copyright 2021. TIBCO Software Inc.
+This file is subject to the license terms contained
+in the license file that is distributed with this file.
+-->
+
+The RinR package provides functions for running code in one R interpreter
+from within another R interpreter.
+The R interpreters can be different versions of open-source R
+or the TERR (TIBCO Enterprise Runtime for R) interpreter.
+The `RCompare` function in the package can run an expression in two different
+R interpreters and compare the results.
+The `RGraph` function can be used to generate graphics in TERR
+by calling graphics functions in an open-source R interpreter.
+
+The RinR package is included with TERR 2.0 (and later versions).
+The package can be downloaded from the TERR community site for
+use with R.
+The package should also soon be available on CRAN.
+
+Along with the `RinR` package, this vignette uses the `MASS` package that is
+included with open-source R.
+The `minimax` and `devtools` packages from CRAN are also used.
+
+```{r load_RinR}
+library(RinR)
+```
+
+## Evaluators
+The main functions of the RinR package are the evaluators.
+These functions execute a given expression in the specified R interpreter.
+The specified R interpreter is started with these command
+line arguments: "`--quiet --vanilla --no-echo`".
+Note that this means that neither the  system `Rprofile.site` nor
+the user's `.Rprofile` (for R) or `.TERRprofile` for TERR will be run.
+
+The return value from an evaluator is a list of length 1
+containing the value of the evaluated expression.
+The name of the list component is the `version$verstion.string`
+from the R interpreter used in the evaluation.
+The `REvaluate` function returns just the value of the
+evaluated expression in the specified R interpreter.
+
+You can have many evaluator functions, one for each R interpreter
+that you want to evaluate an expression in.
+
+The `makeEvaluator` function is used to create an evaluator
+for a particular R interpreter.
+
+```{r version.string, show=FALSE, echo=FALSE}
+vs_4.0.5 <-
+    list(`R version 4.0.5 (2021-03-31)` = "R version 4.0.5 (2021-03-31)")
+vs_4.1.2 <-
+    list(`R version 4.1.2 (2021-11-01)` = "R version 4.1.2 (2021-11-01)")
+```
+
+```{r makeREvaluator, eval=FALSE}
+R4.1.2 <- makeREvaluator("R", RHome="/home/R/R-4.1.2")
+R4.1.2(version$version.string)
+## $`R version 4.1.2 (2021-11-01)`
+## [1] "R version 4.1.2 (2021-11-01)"
+R4.0.5 <- makeREvaluator("R", RHome="/home/R/R-4.0.5")
+R4.0.5(version$version.string)
+## $`R version 4.0.5 (2021-03-31)`
+## [1] "R version 4.0.5 (2021-03-31)"
+```
+
+The RinR package comes with several default evaluators.
+
+* `LocalEvaluator` - the current interpreter (R or TERR)
+* `REvaluator` - an R interpreter
+* `TERREvaluator` - a TERR interpreter
+
+These evaluators are created with the `configureREvaluator` function
+when the RinR package is loaded.
+
+## Finding the R Interpreters
+
+The RinR package must be able to find the various R interpreters that you
+want the package to evaluate code in.
+
+RinR tries to find the location of the R interpreter based on the values of
+
+* `options("RinR_R_FULL_PATH")`,
+* `options("RinR_TERR_FULL_PATH")`
+* values in the Windows registry,
+* commonly-used locations in the file system,
+* directories in `Sys.getenv("PATH")`.
+
+If you regularly use the RinR package it is recommended what you set the
+options `RinR_R_FULL_PATH` and/or `RinR_TERR_FULL_PATH` in your
+startup file.
+The value of the option should be the full path to the R binary e.g.:
+```{r FULL_PATH, eval=FALSE}
+options(RinR_R_FULL_PATH="/usr/local/bin/R-4.0.5")
+options(RinR_TERR_FULL_PATH="/usr/local/bin/TERR-6.0")
+```
+This will ensure that you always get the specified R interpreter when using
+the default `REvaluator` and `TERREvaluator` functions.
+
+If a default evaluators could not be configured when the
+package is loaded,
+the evaluator will look in the system path (`Sys.getenv("PATH")`)
+for the appropriate interpreter when the evaluator function is called.
+
+The `pushPath` function can add the path to an R interpreter to the system path e.g.
+
+```{r pushPath, eval=FALSE}
+pushPATH("/home/R/R-4.0.5/bin")
+```
+
+The `popPATH` function can  be used to remove the first value from the
+system path (to undo a `pushPATH` call).
+
+The `pushPATH` and `popPATH` function only modify the system path
+for the current R / TERR session.
+
+## Using `REvaluate`
+
+`REvaluate` directly returns the value from the expression.
+```{r REvaluate01a}
+REvaluate(version$version.string, LocalEvaluator)
+```
+```{r REvaluate01b}
+REvaluate(version$language, REvaluator)
+```
+```{r REvaluate01c, eval=FALSE}
+REvaluate(version$language, TERREvaluator)
+## [1] "TERR"
+```
+
+The `data` argument to `REvaluate` is used to pass data to the R engine that
+will be called.
+The argument can either be a character vector or a list with named components.
+
+```{r REvaluate02}
+p <- 60:67
+REvaluate(log2(p), REvaluator, data="p")
+```
+
+To load a package for use by the `REvaluate` expression you can
+either explicilty call `library` in the expression
+or use the `packages` argument to `REvaluate`.
+```{r REvaluate03}
+rlmFit <- REvaluate({library(MASS); rlm(body_mass_g ~ bill_depth_mm + sex,
+    peng)}, data = list(peng = palmerpenguins::penguins))
+```
+
+## `multiREvaluator` and `RCompare`
+
+The `multiREvaluator` function evaluates an expression in one
+or more R interpreters.
+The specific R interpreters used are specified as a list of `REvaluator`
+objects in the `REvaluators` argument.
+The default is `DefaultREvaluators()` which contains an evaluator
+for R and for TERR.
+
+The `RCompare` function uses the multiREvaluator to evaluate
+an expression in multiple R interpreters and return the results in a list.
+The names of the list are the names of the evaluators used.
+The return value also includes the results of running
+`all.equal` comparing the first value in the list with each of the
+other values.
+The return object is of class `"sideBySide"` and there is a `print`
+method for the class to display the results.
+
+```{r RCompare01, eval=FALSE}
+## RCompare(log2(xTest), data = list(xTest=4:8))
+## R version 4.1.2 (2021-11-01)   | TERR version 6.0.0 (2021-11-30)
+## [1] 2.000000 2.321928 2.584963 | [1] 2.000000 2.321928 2.584963
+## [4] 2.807355 3.000000          | [4] 2.807355 3.000000
+## 
+## Attributes:
+##   $all.equal
+##   $all.equal$R version 4.1.2 (2021-11-01) vs. TERR version 6.0.0 (2021-11-30)
+##   [1] TRUE
+```
+
+Here is an example where TERR and open-source R differ.
+The `seq.Date` function in TERR uses the last day of each month if the `from` argument is
+a last day, even if the subsequent months have less days.
+Open-source R moves into the next month if the number of days is less than the `from` argument.
+```{r RCompare02, eval=FALSE}
+RCompare(seq(as.Date("2000-01-31"), by = "months", length = 12))
+## R version 4.1.2 (2021-11-01)   | TERR version 6.0.0 (2021-11-30)
+##  [1] "2000-01-31" "2000-03-02" |  [1] "2000-01-31" "2000-02-29"
+##  [3] "2000-03-31" "2000-05-01" |  [3] "2000-03-31" "2000-04-30"
+##  [5] "2000-05-31" "2000-07-01" |  [5] "2000-05-31" "2000-06-30"
+##  [7] "2000-07-31" "2000-08-31" |  [7] "2000-07-31" "2000-08-31"
+##  [9] "2000-10-01" "2000-10-31" |  [9] "2000-09-30" "2000-10-31"
+## [11] "2000-12-01" "2000-12-31" | [11] "2000-11-30" "2000-12-31"
+##
+## Attributes:
+##   $all.equal
+##   $all.equal$R version 4.1.2 (2021-11-01) vs. TERR version 6.0.0 (2021-11-3  0)
+##   [1] "Mean relative difference: 0.0001076079"
+```
+
+There is a `sideBySide` function that converts any list into
+an object of class `"sideBySide"`.
+This is a useful way to compare multiple results, even if
+they were not computed in different R interpreters.
+The `.PRINTFUN` argument can be used to specify a particular
+print method for the display (see the example below).
+
+```{r sideBySide}
+sideBySide(list(NaiveFactorial=sapply(1:10, function(i) prod(1:i)),
+    ViaGamma=gamma((1:10)+1)))
+# may need options(width=124)
+sideBySide(list(Default=terms(y ~ 1), NoIntercept=terms(y ~ -1)),
+    PRINTFUN="str")
+```
